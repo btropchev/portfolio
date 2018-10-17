@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(192, 192, 252);
+    text-align: center;
+}
+#select{
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+}
+article {
+    padding:100px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin:30px;
+    cursor: pointer;
+}
+.simplepage{
+    background-image: url("indeximg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.formpage{
+    background-image: url("index2img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.landingpage{
+    background-image: url("index3img.JPG");
+    background-size: cover;
+    background-position: left;
+}
+.docpage{
+    background-image: url("index4img.JPG");
+    background-size: cover;
+    background-position: left;
+}
+
+.portpage{
+    background-image: url("index5img.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.niapage{
+    background-image: url("index6img.JPG");
+    background-size: cover;
+    background-position: right;
+}
+
+a {
+    text-decoration: none;
+}
+div {
+    display:inline-block;
+}
+span {
+    font-size: 19px;
+    font-family: sans-serif;
+}

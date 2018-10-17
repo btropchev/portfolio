@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: rgb(202, 202, 240);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(66, 62, 62);
+    min-width: 320px;
+}
+h1 {
+    margin-top: 30px;
+
+}
+#form {
+    background-color: whitesmoke;
+    margin: 30px 200px 10px 200px;
+    border-radius: 7px;
+
+}
+#firstSent {
+    padding: 30px;
+    font-size: 20px;
+}
+#left, #right {
+    display:inline-block;
+}
+#left {
+    vertical-align: top;
+    text-align: right;
+    width: 45%;
+
+}
+#right{
+    text-align: left;
+    vertical-align: top;
+    width: 50%;
+}
+input {
+    padding:7px;
+    margin:7px;
+    border-radius: 2px;
+    border:1px solid rgb(151, 149, 149);
+}
+#right .neaForm, select {
+    width:65%;
+}
+p{
+    padding:13px;
+}
+
+select, #select {
+    padding:8px;
+    margin:20px 7px 20px 7px;
+}
+select {
+    width:30%
+}
+#checkbox {
+    margin-top: 20px;
+}
+#radioText {
+    margin-top: 25px;
+}
+#radio {
+    margin-top: 20px;
+}
+#option{
+    margin-top: 40px;
+    width:80%;
+    float: right;
+}
+
+#comment input {
+    height: 100px;
+    max-width: 200px;;
+}
+#final, textarea {
+    display:inline-block;
+}
+#final {
+    vertical-align: top;
+    margin-right: -10px;
+}
+textarea {
+    margin-top: 15px;
+    color: gray;
+    margin-left: 20px;
+}
+#submit {
+    padding:10px 25px 10px 25px;
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: rgb(153, 153, 224);
+    border:none;
+    margin-top: 10px;
+}
+.test {
+    margin-top:-15px;
+}
+.bigtest{
+    margin-top: 30px;
+}

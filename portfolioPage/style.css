@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(229, 240, 245);
+}
+header {
+    text-align: right;
+    position:sticky;
+    top:0;
+}
+nav ul li{
+    display:inline-block;
+}
+li a{
+    text-decoration: none;
+    color:gray;
+
+}
+li {
+    list-style: none;
+    padding:25px;
+    margin-right: 40px;
+}
+
+#title {
+    background-color: rgb(202, 226, 241);
+}
+
+#title p{
+    color:green;
+}
+
+h1{
+    padding-top: 180px;
+    padding-bottom: 15px;
+    font-size: 35px;
+}
+
+h1 + p {
+    padding-bottom: 230px;
+}
+
+#allProj {
+    background-color: whitesmoke;
+}
+
+h3 {
+    padding:60px;
+    font-size: 26px;
+    font-weight: 500;
+    color:lightslategray;
+}
+
+#projects article {
+    width:23%;
+    display:inline-block;
+    padding: 15px;
+    border:2px solid lightslategray;
+    margin:60px;
+    padding-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+img + p {
+    color:lightslategray;
+    font-weight: bold;
+    padding:15px;
+}
+img {
+    width:100%;
+     border: 2px solid lightslategray;
+     border-radius: 5px;
+}
+button{
+    padding:10px 50px 10px 50px;
+    background-color: rgba(117, 118, 119, 0.329);
+    color:rgb(100, 113, 126);
+    font-weight: bold;
+    border:none;
+    font-size: 20px; 
+    border-radius: 5px;
+    border:2px solid orange;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#work {
+    background-color: rgba(93, 252, 93, 0.637);
+    padding-bottom: 90px;
+}
+
+#work p {
+    padding-bottom: 80px;
+}
+
+.social {
+   
+    display:inline-block;
+    border:2px solid rgb(27, 139, 27);
+    line-height: 100px;
+    width: 100px;
+    border-radius:100%;
+    margin:50px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    color:lightslategray;
+    font-weight: bold;
+}
+
+footer {
+    background-color: darkslategrey;
+    color:white;
+}
+ 
+ footer p {
+    padding-top: 30px;
+ }
+ #last {
+     padding-top: 15px;
+     padding-bottom: 20px;
+ }
