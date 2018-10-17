@@ -14,12 +14,12 @@ article {
     cursor: pointer;
 }
 .simplepage{
-    background-image: url("indeximg.jpg");
+    background-image: url("indeximg.JPG");
     background-size: cover;
     background-position: center;
 }
 .formpage{
-    background-image: url("index2img.jpg");
+    background-image: url("index2img.JPG");
     background-size: cover;
     background-position: center;
 }
