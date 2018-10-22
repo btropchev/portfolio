@@ -14,12 +14,12 @@ article {
     cursor: pointer;
 }
 .simplepage{
-    background-image: url("indeximg.JPG");
+    background-image: url("indeximg.jpg");
     background-size: cover;
     background-position: center;
 }
 .formpage{
-    background-image: url("index2img.JPG");
+    background-image: url("index2img.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -44,6 +44,12 @@ article {
     background-image: url("index6img.JPG");
     background-size: cover;
     background-position: right;
+}
+
+.phonepage{
+    background-image: url("index7img.JPG");
+    background-size: cover;
+    background-position: center;
 }
 
 a {

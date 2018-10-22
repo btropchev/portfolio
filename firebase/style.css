@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(250, 227, 170);
+    font-size: 20px;
+    margin:20px;
+}
+
+#btn-create, #btn-load{
+    background:black;
+    color:white;
+    font-size: 25px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Nanum Brush Script',sans-serif;
+    font-weight: 600;
+    border: 2px solid white;
+    text-shadow: none;
+}
+  
+#btn-create:hover, #btn-load:hover{
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  #delete {
+      margin-left: 10px;
+      padding:5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      color:white;
+      background-color: black;
+  }
+
+  #delete:hover {
+      color:black;
+      background-color: white;
+
+  }
+
+  ul  {
+    list-style-type:none;
+}
+
+li {
+    font-style: italic;
+    width:35%;
+    margin:10px;
+    margin:auto;
+    background-color: antiquewhite;
+    text-transform: capitalize;
+}
+li:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+input {
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+div {
+    display:inline-block;
+    font-weight: bold;
+}
